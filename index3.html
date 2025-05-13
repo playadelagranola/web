@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="icon" href="LOGO.jpeg" type="image/x-icon">
+    <title>playa de la gran ola</title>
+</head>
+<body>
+
+    <div class="head">
+
+        <div class="logo">
+            <img id="ft" src="LOGO.jpeg" width="65" alt="">
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">inicio</a>
+            <a href="index2.html">servicios</a>
+            <a href="#contacto">contacto</a>
+            <a href="index4.html">productos</a>
+        </nav>    
+
+    </div>
+
+    <header class="content header">
+        <h2 class="title">contacto</h2>
+        <p>
+            estas son las formas de comunicarse con el equipo de administracion 
+            y moderacion de el hotel resort PLAYA DE LA GRAN OLA
+        </p>
+
+    </header>
+    
+
+    <section class="content contact">
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+</body>
+</html>
